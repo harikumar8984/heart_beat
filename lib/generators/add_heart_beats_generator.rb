@@ -1,5 +1,5 @@
 #require 'rails/generators/base'
-class RailsErrorPagesGenerator < Rails::Generators::Base
+class AddHeartBeatsGenerator < Rails::Generators::Base
   source_root File.expand_path('../templates', __FILE__)
 
   def add_routes
