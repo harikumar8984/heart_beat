@@ -8,6 +8,10 @@ class AddHeartBeatsGenerator < Rails::Generators::Base
      }
   end
 
+  def copy_initializer_file
+    copy_file "lib/template/heart_beat.rb", "config/initializers/heart_beat.rb"
+  end
+
   # def add_exceptions_app
   #   application %Q{config.exceptions_app = self.routes}
   # end

@@ -1,3 +1,4 @@
+require 'rake'
 Gem::Specification.new do |s|
   s.name        = "heart_beat"
   s.version     = '0.0.1'
@@ -8,6 +9,10 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/harikumar8984/heart_beat"
 
   s.files = Dir['lib/*.rb'] + Dir['config/*.rb']
+  # s.files += Dir['app/*.rb']
+
+
+
 
 
 end
